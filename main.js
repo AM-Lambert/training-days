@@ -22,11 +22,11 @@ const getTrainingDays = event => {
   return days;
 };
 
-const logEvent = name => {
+const logEvent = (name, event) => {
   console.log(`${name}'s event is: ${event}`);
 };
 
-const logTime = name => {
+const logTime = (name, days) => {
   console.log(`${name}'s time to train is: ${days} days`);
 };
 
